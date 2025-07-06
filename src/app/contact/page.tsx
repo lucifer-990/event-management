@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-const contact = () => {
+const Contact = () => {
         const [form, setForm] = useState({ name: "", email: "", message: "" });
         
         const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -43,7 +43,7 @@ const contact = () => {
                 <div className="min-h-screen flex items-center justify-center p-6">
                     <div className="shadow-lg rounded-lg p-8 max-w-lg w-full">
                         <h2 className="text-3xl font-bold mb-4 text-center">Contact Us</h2>
-                        <p className="text-center mb-6">Have questions? We'd love to hear from you.</p>
+                        <p className="text-center mb-6">Have questions? We&apos;d love to hear from you.</p>
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div>
                                 <label className="block font-semibold">Name</label>
@@ -90,4 +90,4 @@ const contact = () => {
             </div>
         )
     }
-export default contact
+export default Contact

@@ -1,21 +1,21 @@
 'use client'
 import Link from 'next/link';
 import React from 'react'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { ResponsiveContainer } from "recharts";
 
 
 
-const generateCertificate = () => {
-  alert("Participation Certificate Generated!");
-};
+// const generateCertificate = () => {
+//   alert("Participation Certificate Generated!");
+// };
 
-const Card: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-xl shadow-md p-16">{children}</div>
-);
+// const Card: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+//   <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-xl shadow-md p-16">{children}</div>
+// );
 
-const CardContent: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <div className="p-4">{children}</div>
-);
+// const CardContent: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+//   <div className="p-4">{children}</div>
+// );
 
 
 const Events = () => {
@@ -32,7 +32,7 @@ const Events = () => {
           <p className=" mt-2">Hackentine 2025 is an event where developers, designers, and entrepreneurs collaborate to build innovative solutions to real-world problemsv.</p>
           <p className=" mt-2">Coding Ninjas 10X Club in collaboration with Hack2Skill presents Hackentine - A 2 Week long Hackathon Saga | This Valentine Month,Get Paired with Code
           </p>
-          <hr className='my-3' />
+          <hr className="my-3" />
           <p className="mt-2">A team-based “hackathon" where you and your squad collaborate, innovate, and build groundbreaking tech solutions! 💡💻 Compete with the best coding minds across the nation and grab exciting rewards! 🏆</p>
         </section>
 

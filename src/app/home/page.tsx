@@ -1,7 +1,6 @@
 'use client'
 import { CheckIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
 import { motion, AnimatePresence } from 'framer-motion';
-import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from 'react';
 
@@ -180,7 +179,7 @@ const Home = () => {
             <p className="font-bold">Event planning made easier for everyone</p>
             <button className=" mt-8 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 text-2xl px-6 py-3 font-bold animate-bounce transition"><Link href="/evently">events</Link></button>
           </div>
-          <Image src="/hero.png" width="600" height="600" alt="bg img" className='hover:scale-110 transition-all duration-300'/>
+          <img src="/hero.png" width="600" height="600" alt="bg img" className='hover:scale-110 transition-all duration-300'/>
         </div>
       </div>
       <div className="container relative isolate px-6 py-24 sm:py-32 lg:px-8">

@@ -2,12 +2,12 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-const defaultFormData = {
-    email: '',
-    password: '',
-}
+// const defaultFormData = {
+//     email: '',
+//     password: '',
+// }
 
-const login = () => {
+const Login = () => {
 
     const inputStyles = "border border-gray-300 sm:text-sm text-black rounded:lg block w-full p-2.5 focus:outline-non rounded-lg ";
 
@@ -21,7 +21,9 @@ const login = () => {
                 <div className="flex mb-8 flex-col md:flex-row items-center justify-between">
                     <h1 className="text-xl font-bold leading-tight tracking-tight md:text-2xl">Login to an existing account</h1>
                 </div>
-                <form className="space-y-4 md:space-y-6" onSubmit={login}>
+                <form className="space-y-4 md:space-y-6" 
+                // onSubmit={login}
+                >
                    
                     <input
                         type="email"
@@ -43,7 +45,7 @@ const login = () => {
                         onChange={(e) => setPassword(e.target.value)}
                     />
                     <button
-                        onClick={login}
+                        // onClick={login}
                         className="w-full bg-tertiary-light focus:outline-none font-bold rounded-lg text-sm px-5 py-2.5 text-center">
                        <Link href="/home">login</Link> 
                     </button>
@@ -53,7 +55,7 @@ const login = () => {
     )
 };
 
-export default login;
+export default Login;
 
 
 

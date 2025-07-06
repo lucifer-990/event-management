@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const defaultFormData = {
-    email: '',
-    name: '',
-    password: '',
-}
+// const defaultFormData = {
+//     email: '',
+//     name: '',
+//     password: '',
+// }
 
 
 function Auth() { 

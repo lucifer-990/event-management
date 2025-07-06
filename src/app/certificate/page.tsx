@@ -4,7 +4,7 @@ import { jsPDF } from "jspdf";
 
 
 
-const certificate = () => {
+const Certificate = () => {
     const [name, setName] = useState("");
 
     const generateCertificate = () => {
@@ -71,4 +71,4 @@ const certificate = () => {
   )
 }
 
-export default certificate
+export default Certificate
